@@ -45,3 +45,22 @@ only commits of a certain author
 useful ways to visualize the history
 > git blame file.js
 > git log
+
+stash pushes all your uncommitted changes onto a stack.
+>git stahs
+
+Compare commits
+>git diff
+> git diff <commit hash> (> git diff 1d2f05f..5c9d9f3a)
+
+The .. operator signifies a range is being provided.
+> git diff 1d2f05f..5c9d9f3a
+
+To list the existing tags:
+>git tag
+
+To create a tag in the last commit:
+> git tag v1.5
+
+To create a tag in a specific commit:
+> git tag v1.0 5c9d9f3
