@@ -64,3 +64,17 @@ To create a tag in the last commit:
 
 To create a tag in a specific commit:
 > git tag v1.0 5c9d9f3
+
+To create a branch colled risky_idea use:
+> git checkout -b risky_idea
+
+To start working with new branch:
+> git checkout risky_idea
+
+merge
+> git checkout master
+> git merge risky_idea
+
+To delete a no longer needed branch use:
+> git branch –d risky_idea
+
