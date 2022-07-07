@@ -22,3 +22,26 @@ To add all files to the index
 
 Commit
 >git commit -m "message"
+
+typo in your commit message, or you forget 
+to stage an important change before committing:
+>git commit --amend
+
+delete file.js from repository
+ git rm file.js
+
+stop tracking file.js (remove from repository) without deleting it from the file system:
+> git rm –cached file.js
+
+To move or rename use:
+> git mv <source> <destination>
+
+change the information and how it appears
+> git log --pretty=format:"%h %s <%an>" --graph
+
+only commits of a certain author
+> git log --author="Paulo Proenca"
+
+useful ways to visualize the history
+> git blame file.js
+> git log
