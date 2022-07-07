@@ -16,3 +16,9 @@ check the status of the repository use
 
 start track the new file use
 >git add file.js
+
+To add all files to the index
+>git add *
+
+Commit
+>git commit -m "message"
