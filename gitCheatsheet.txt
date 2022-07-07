@@ -13,3 +13,6 @@ Initialize repo
 
 check the status of the repository use
 > git status
+
+start track the new file use
+>git add file.js
