@@ -1,0 +1,15 @@
+Config user
+> git config --global user.name "Paulo Proenca" 
+> git config --global user.email prp@upskill.pt
+
+Config editor
+> git config --global core.editor nano
+
+Colorize git messages
+> git config --global color.ui true
+
+Initialize repo
+>git init
+
+check the status of the repository use
+> git status
